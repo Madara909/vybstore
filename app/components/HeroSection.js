@@ -25,8 +25,10 @@ const HeroSection = () => {
 
                 {/* Subtitle */}
                 <p className='text-lg sm:text-2xl lg:text-5xl font-bold mb-8 '>
-                    Unleash Your Influence: Sell Itineraries, Build Your Brand,
-                    Create Merch, and Share Content – All in One Hub.
+                    <q>
+                        Unleash Your Influence: Sell Itineraries, Build Your
+                        Brand, Create Merch, and Share Content – All in One Hub.
+                    </q>
                 </p>
 
                 {/* Buttons */}
@@ -34,7 +36,7 @@ const HeroSection = () => {
                     <button className='bg-green-500 text-black font-semibold py-4 px-6 rounded-2xl hover:bg-green-400'>
                         Demo Store
                     </button>
-                    <button className='border-2 border-red-500 text-red-500 font-semibold py-2 px-6 rounded hover:bg-red-500 hover:text-black'>
+                    <button className='border-2 border-red-500 text-red-500 font-semibold py-2 px-6 rounded-2xl hover:bg-red-500 hover:text-black'>
                         Join Waitlist
                     </button>
                 </div>

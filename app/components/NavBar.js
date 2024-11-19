@@ -11,7 +11,7 @@ const NavBar = () => {
     };
 
     return (
-        <header className='px-6 py-4 bg-black text-white'>
+        <header className='px-6 py-4 text-white'>
             <nav className='flex justify-between items-center'>
                 {/* Logo and Search Bar */}
                 <div className='flex items-center gap-4 w-full md:w-auto'>

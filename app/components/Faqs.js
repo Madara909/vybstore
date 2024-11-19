@@ -46,7 +46,7 @@ const Faqs = () => {
                 </h2>
                 <p className='text-center md:text-left font-medium text-base md:text-lg'>
                     Quick answers to questions you may have. Can’t find what
-                    you're looking for?
+                    you&apos;re looking for?
                     <br /> Check out our full documentation
                 </p>
             </div>
@@ -80,7 +80,7 @@ const Faqs = () => {
                                     : "max-h-0 opacity-0"
                             }`}
                         >
-                        <hr className="mb-2"/>
+                            <hr className='mb-2' />
                             {faq.answer}
                         </div>
                     </div>
